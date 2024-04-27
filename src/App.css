@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+*{
+  margin: 0;/*resetando a margem*/
+  box-sizing: border-box;
+  list-style: none;/*tiram os pontinhos que ficam ao lado do elemento da lista*/
+  text-decoration: none;/*tira a linha embaixo dos nome*/
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+header .navegacao{
+  background: #7E6969;
+  padding: 20px 70px; 
+}
+.navegacao{
+  position: relative;
+  bottom: 1060px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.a{
+  text-decoration: none;
+}
+.navegacao ul{
+  align-items: center;
+  display: flex;
+  gap: 70px;
+  font-size: 20px;
+}
+.navegacao ul li a{
+  color: #fff;
+  font-weight: 600;
+  padding-bottom: 4px;
+  transition: all 0.5s ease-in-out;
+}
+.navegacao ul li a:hover{
+  color: aliceblue;
+  border-bottom: 1px solid #fff;
+}
+.centered-text {
+  text-align: center;
+  font-family: 'Calistoga', cursive;
+  color: #504037;
+  position: relative;
+  top: -450px;
+}
+.rectangle{
+  line-height:0;
+  width:0;
+  height:0;
+  border-style: solid;
+  border-color: #7E6969;
+  border-width: 0 160px 100px 1700px;
+}
+.rectangle2{
+  position: absolute;
+  top: 4250px;;
+  line-height:0;
+  width:0;
+  height:0;
+  border-style: solid;
+  border-color: #7E6969;
+  border-width: 0 160px 100px 1700px;
+}
+
+.forms{
+  position: relative;
+  z-index: 1000;
+}
+.produtos{
+  width: 100%;
+}
+.conheça{
+  width: 93%;
+  position: absolute;
+  top: 4350px;
+  left: 28px;
+}
+.cointainer{
+  position: relative;
+  top: -200px;
+}
+.card{
+  background: #7E6969;
+}
+.card-title{
+  color: #ffffff;
+}
+.sobre1{
+  width: 95%;
+  position: absolute;
+  top: 2900px;
+  left: 20px;
+}
+.sobre2{
+  width: 95%;
+  position: absolute;
+  top: 3700px;
+  left: 20px;
+}
+.card{
+  position: relative;
+  top: -300px;
+}
+
+.carro {
+  width: 460px;
+  position: relative;
+  top: -290px;
+}
+
+.carro2 {
+  width: 1406px;
+  position: relative;
+  top: -330px;
+}
+
+.carro3 {
+  width: 2358px;
+  position: relative;
+  top: -370px;
+}
+
+.carro4 {
+  width: 3274px;
+  position: relative;
+  top: -410px;
+}
+
+.carrincompras{
+  width: 40px;
+}
+
+.App {
+  text-align: center;
+}
+.fundomarrom{
+  background: #7E6969;
+
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navbar-expand-lg{
+  width:100%;
+  
+}
+
+.navbar-brand2{
+  width: 101.7%;
+  position: relative;
+  top: -93px;
+  right: 20px;
+}
+
+.botãoclass {
+  color: #ffffff;
+  margin-right: 50px !important;
+  position: relative;
+  right: -300px;
+}
+
+.container-fluid{
+  background-color: #7E6969;
+  width: 100%;
+}
+
+.custom-navbar{
+  width: 100%;
+} 
+
+.nav-item{
+  margin-right: 50px !important; /* Aumenta o espaçamento à direita de cada item */
+
+}
+
+.nav-link{
+  color: white;
+}
+
+#navbarNav{
+  font-size: 25px;
+  font-style: white;
+}
+
+.navbar-brand{
+  width: 250px;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
